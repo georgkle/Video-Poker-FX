@@ -1,0 +1,37 @@
+.hoia-nupp {
+    -fx-background-color: #ededed;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-border-color: transparent;
+    -fx-border-width: 2;
+    -fx-cursor: hand;
+}
+
+.hoia-nupp:hover {
+    -fx-background-color: #bbbbbb;
+    -fx-effect: dropshadow(three-pass-box, gray, 5, 0, 0, 0);
+}
+
+.hoia-nupp:selected {
+    -fx-background-color: #b3b3b3;
+    -fx-text-fill: white;
+    -fx-border-color: #fbec6f;
+    -fx-border-radius: 5;
+}
+
+.mangi-nupp {
+    -fx-background-color: #ededed;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.mangi-nupp:hover {
+    -fx-background-color: #bbbbbb;
+    -fx-effect: dropshadow(three-pass-box, gray, 5, 0, 0, 0);
+}
+
+.mangi-nupp:pressed {
+    -fx-background-color: #999999;
+}
